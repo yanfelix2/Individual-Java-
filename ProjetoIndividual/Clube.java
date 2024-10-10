@@ -2,7 +2,7 @@ package ProjetoIndividual;
 
 
 public class Clube {
-    public String nome = "Yan";
+    public String nome;
     public String nomePresidente;
     public String numeroContato;
     public String estadio;  
