@@ -2,10 +2,14 @@ package ProjetoIndividual;
 
 
 public class Clube {
-    public String nome;
+    public String nome = "Yan";
     public String nomePresidente;
     public String numeroContato;
     public String estadio;  
+
+    public Clube(){
+    }
+
 
 
     public Clube(String nome, String nomePresidente, String numeroContato, String estadio){
