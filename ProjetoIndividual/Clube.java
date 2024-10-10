@@ -11,6 +11,7 @@ public class Clube {
     public String historicoPartidas;
     public String localizacaoSede;
     public String Estadio;
+    public String teste;
 
     
 
