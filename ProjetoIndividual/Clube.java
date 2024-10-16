@@ -7,11 +7,6 @@ public class Clube {
     public String numeroContato;
     public String estadio;  
 
-    public Clube(){
-    }
-
-
-
     public Clube(String nome, String nomePresidente, String numeroContato, String estadio){
         this.nome = nome;
         this.nomePresidente = nomePresidente;
