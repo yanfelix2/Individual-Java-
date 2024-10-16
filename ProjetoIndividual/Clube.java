@@ -2,10 +2,10 @@ package ProjetoIndividual;
 
 
 public class Clube {
-    public String nome;
-    public String nomePresidente;
-    public String numeroContato;
-    public String estadio;  
+    private String nome;
+    private String nomePresidente;
+    private String numeroContato;
+    private String estadio;  
 
     public Clube(String nome, String nomePresidente, String numeroContato, String estadio){
         this.nome = nome;
