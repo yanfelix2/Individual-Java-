@@ -1,19 +1,16 @@
 package ProjetoIndividual;
 
-public class Jogador {
-    public String nome;
-    public String nacionalidade;
-    public Double salario;
-    public Double altura;
-    public Double peso;
-    public int numeroCamisa;
-    public String posicao;
-    public String clubeAtual;
+public class Jogador extends Pessoa {
+    private Double salario;
+    private Double altura;
+    private Double peso;
+    private int numeroCamisa;
+    private String posicao;
+    private String clubeAtual;
 
-    public Jogador(String nome, String nacionalidade, Double salario, Double altura, Double peso, int numeroCamisa,
-    String posicao, String clubeAtual) {
-        this.nome = nome;
-        this.nacionalidade = nacionalidade;
+    public Jogador(String nome, String nacionalidade, int idade, Double salario, Double altura, Double peso, 
+                   int numeroCamisa, String posicao, String clubeAtual) {
+        super(nome, nacionalidade, idade);
         this.salario = salario;
         this.altura = altura;
         this.peso = peso;
@@ -21,31 +18,6 @@ public class Jogador {
         this.posicao = posicao;
         this.clubeAtual = clubeAtual;
     }
-
-
-    
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-
-
-
-    public String getNacionalidade() {
-        return nacionalidade;
-    }
-
-    public void setNacionalidade(String nacionalidade) {
-        this.nacionalidade = nacionalidade;
-    }
-
-
-
 
     public Double getSalario() {
         return salario;
@@ -55,9 +27,6 @@ public class Jogador {
         this.salario = salario;
     }
 
-
-
-
     public Double getAltura() {
         return altura;
     }
@@ -65,9 +34,6 @@ public class Jogador {
     public void setAltura(Double altura) {
         this.altura = altura;
     }
-
-
-
 
     public Double getPeso() {
         return peso;
@@ -77,9 +43,6 @@ public class Jogador {
         this.peso = peso;
     }
 
-
-
-
     public int getNumeroCamisa() {
         return numeroCamisa;
     }
@@ -87,9 +50,6 @@ public class Jogador {
     public void setNumeroCamisa(int numeroCamisa) {
         this.numeroCamisa = numeroCamisa;
     }
-
-
-
 
     public String getPosicao() {
         return posicao;
@@ -99,9 +59,6 @@ public class Jogador {
         this.posicao = posicao;
     }
 
-
-
-
     public String getClubeAtual() {
         return clubeAtual;
     }
@@ -109,13 +66,4 @@ public class Jogador {
     public void setClubeAtual(String clubeAtual) {
         this.clubeAtual = clubeAtual;
     }
-
-    
-    
-    
-
- 
-
-    
-    
 }
