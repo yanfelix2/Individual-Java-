@@ -4,12 +4,14 @@ public class Pessoa {
     private String nome;
     private String nacionalidade;
     private int idade;
-    
-    public Pessoa(String nome, String nacionalidade, int idade){
+
+    public Pessoa(String nome, String nacionalidade, int idade) {
         this.nome = nome;
         this.nacionalidade = nacionalidade;
         this.idade = idade;
     }
+
+    // Getters e Setters
 
     public String getNome() {
         return nome;
