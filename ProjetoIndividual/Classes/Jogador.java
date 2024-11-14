@@ -1,11 +1,11 @@
-package ProjetoIndividual;
-
+package ProjetoIndividual.Classes;
 
 public class Jogador extends Pessoa{
     private String posicao;
     private int numeroCamisa;
     private Double salario;
     private String clubeAtual;
+    
 
 
 
@@ -49,6 +49,13 @@ public class Jogador extends Pessoa{
     public void setClubeAtual(String clubeAtual) {
         this.clubeAtual = clubeAtual;
     }
+
+    @Override
+    public String exibirInformacoes() {
+        return "Nome: " + getNome() + "\n" + "Nacionalidade: " + getNacionalidade() + "\n" + "Idade: " + getIdade() + "\n" + "Posição: " + posicao + "\n" + "Número da Camisa: " + numeroCamisa + "\n" + "Clube Atual: " + clubeAtual;                 
+    }
+
+    
                  
 
 }

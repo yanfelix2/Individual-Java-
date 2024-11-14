@@ -1,4 +1,4 @@
-package ProjetoIndividual;
+package ProjetoIndividual.Classes;
 
 public class Treinador extends Pessoa{
     private String clubeAtual;
@@ -48,6 +48,10 @@ public class Treinador extends Pessoa{
         this.salario = salario;
     }
 
+    @Override
+    public String exibirInformacoes() {
+        return "Nome: " + getNome() + "\n" + "Nacionalidade: " + getNacionalidade() + "\n" + "Idade: " + getIdade() + "\n" + "Clube Atual: " + clubeAtual + "\n" + "Anos de Experiência: " + anosExperiencia + "\n" + "Estilo de Jogo: " + estiloJogo + "\n" + "Salário: R$" + salario;      
+    }
 
 
 

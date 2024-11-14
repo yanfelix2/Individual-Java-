@@ -1,4 +1,4 @@
-package ProjetoIndividual;
+package ProjetoIndividual.Classes;
 
 
 public class Clube {

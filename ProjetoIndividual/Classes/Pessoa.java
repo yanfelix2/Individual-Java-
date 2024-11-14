@@ -1,6 +1,8 @@
-package ProjetoIndividual;
+package ProjetoIndividual.Classes;
 
-public class Pessoa {
+import ProjetoIndividual.Interfaces.Info;
+
+public abstract class Pessoa implements Info {
     private String nome;
     private String nacionalidade;
     private int idade;
@@ -36,4 +38,9 @@ public class Pessoa {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    @Override
+    public abstract String exibirInformacoes();
+
+
 }
